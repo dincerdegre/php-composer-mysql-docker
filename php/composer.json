@@ -1,0 +1,20 @@
+{
+    "name": "degre/phpapp",
+    "description": "Simple Php App for Say hello",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^10.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Degre\\Phpapp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dincerdegre",
+            "email": "info@dincerdegre.com"
+        }
+    ],
+    "require": {}
+}
