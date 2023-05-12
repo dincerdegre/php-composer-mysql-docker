@@ -3,7 +3,7 @@ services:
   php:
     restart: always
     build:
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
       context: './php'
     ports:
       - "80:80"

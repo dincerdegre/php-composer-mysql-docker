@@ -9,6 +9,6 @@ COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 
 COPY composer.json composer.lock ./
 
-RUN composer install --prefer-dist --no-dev --no-scripts --no-progress --no-interaction
+RUN composer install --dev
 
 COPY . .
